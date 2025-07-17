@@ -19,7 +19,7 @@ body{
 /* Header*/
 header {
     background-color: #ffffff;
-    padding: 0 1rem;
+    padding: 0 1rem ;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -52,6 +52,18 @@ menu > li {
 .active {
     border-bottom: 1px solid #3a3a3a;
 
+}
+
+/* Navbar styles with dropdown */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left:0;
+    box-shadow: 0 2px 2px ;
+    padding: 0 1rem;
+    display: none;
+  
 }
 
 /* Main content*/
